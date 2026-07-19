@@ -17,7 +17,7 @@ const loading = async ()=>{
     if(match){
          const stars = '★'.repeat(match.Rating)
        main_parts.innerHTML = `
-    <img class='card_img' src='../${match.Image}'>
+    <img class='card_img' src='/${match.Image}'>
     <h1>${match.Name}</h1>
     <p>ID: ${match.ID}</p>
     <p>Email: ${match.Email}</p>
