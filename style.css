@@ -45,7 +45,7 @@ main{
     border-radius:0 0 28px 28px;
     background-image:
        
-    url("../img/zz.png");
+    url("img/zz.png");
     background-size:cover;
     background-position:center;
     box-shadow:0 8px 24px rgba(0,0,0,.12);
