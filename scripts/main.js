@@ -8,7 +8,7 @@ console.log(id )
 const main_parts = document.querySelector('.main_part')
 
 const loading = async ()=>{
-    const api = await fetch('/data/contacts.json')
+    const api = await fetch('../data/contacts.json')
     const res = await api.json()
     
     
@@ -17,7 +17,7 @@ const loading = async ()=>{
     if(match){
          const stars = '★'.repeat(match.Rating)
        main_parts.innerHTML = `
-    <img class='card_img' src='/${match.Image}'>
+    <img class='card_img' src='../${match.Image}'>
     <h1>${match.Name}</h1>
     <p>ID: ${match.ID}</p>
     <p>Email: ${match.Email}</p>
@@ -37,14 +37,14 @@ const loading = async ()=>{
     const btn1 = document.querySelector('.action-btn')
     btn1.addEventListener('click' , ()=>{
        
-       window.location.href = `/pages/booking.html?id=${match.ID}&service=message`
-      
-       
+       window.location.href = `./booking.html?id=${match.ID}&service=message`
+
+
     })
-    
+
     const btn2 = document.querySelector('.action-btn2')
     btn2.addEventListener('click' , ()=>{
-        window.location.href = `/pages/booking.html?id=${match.ID}&service=video`
+        window.location.href = `./booking.html?id=${match.ID}&service=video`
     })
         
     }

@@ -22,13 +22,13 @@ const renderCards = (list) => {
         main_part.appendChild(cards)
 
         cards.addEventListener('click', () => {
-            window.location.href = `/pages/main.html?id=${r.ID}`
+            window.location.href = `pages/main.html?id=${r.ID}`
         })
     })
 }
 
 const loading_data = async () => {
-    const api = await fetch('/data/contacts.json')
+    const api = await fetch('data/contacts.json')
     const res = await api.json()
 
     renderCards(res)   // show everyone initially
