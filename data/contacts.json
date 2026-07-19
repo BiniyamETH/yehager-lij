@@ -1,0 +1,123 @@
+[
+  {
+    "ID": 1,
+    "Name": "John Smith",
+    "Email": "john.smith@gmail.com",
+    "Phone": "647-111-1111",
+    "Image": "img/pbd.png",
+    "Rating": 4,
+    "Bio": "Marketing strategist and content creator with a passion for building brands, growing online communities, and creating engaging digital experiences. Skilled in developing marketing campaigns, producing compelling content, analyzing audience insights, and using creative storytelling to connect businesses with their target audiences. Focused on driving brand awareness, increasing engagement, and delivering measurable results across multiple digital platforms.",
+  
+    "Category": "Business",
+    "MessagePrice": 10,
+    "CallPrice": 30
+  },
+  {
+    "ID": 2,
+    "Name": "Sarah Johnson",
+    "Email": "sarah.j@gmail.com",
+    "Phone": "647-222-2222",
+    "Image": "img/ai.png",
+    "Rating": 5,
+    "Bio": "Fitness coach helping people achieve their health goals.",
+    "Category": "Fitness",
+    "MessagePrice": 15,
+    "CallPrice": 40
+  },
+  {
+    "ID": 3,
+    "Name": "Michael Brown",
+    "Email": "mike.brown@gmail.com",
+    "Phone": "647-333-3333",
+    "Image": "img/c.jpg",
+    "Rating": 4,
+    "Bio": "Software engineer and technology consultant.",
+    "Category": "Technology",
+    "MessagePrice": 20,
+    "CallPrice": 50
+  },
+  {
+    "ID": 4,
+    "Name": "Emily Davis",
+    "Email": "emily.d@gmail.com",
+    "Phone": "647-444-4444",
+    "Image": "img/d.jpg",
+    "Rating": 5,
+    "Bio": "Marketing strategist and content creator.",
+    "Category": "Marketing",
+    "MessagePrice": 18,
+    "CallPrice": 45
+  },
+  {
+    "ID": 5,
+    "Name": "David Wilson",
+    "Email": "david.w@gmail.com",
+    "Phone": "647-555-5555",
+    "Image": "img/e.jpg",
+    "Rating": 3,
+    "Bio": "Career mentor and leadership coach.",
+    "Category": "Career",
+    "MessagePrice": 12,
+    "CallPrice": 35
+  },
+  {
+    "ID": 6,
+    "Name": "Jessica Taylor",
+    "Email": "jessica.t@gmail.com",
+    "Phone": "647-666-6666",
+    "Image": "img/f.jpg",
+    "Rating": 4,
+    "Bio": "Graphic designer and branding specialist.",
+    "Category": "Design",
+    "MessagePrice": 15,
+    "CallPrice": 40
+  },
+  {
+    "ID": 7,
+    "Name": "Daniel Anderson",
+    "Email": "daniel.a@gmail.com",
+    "Phone": "647-777-7777",
+    "Image": "img/g.jpg",
+    "Rating": 5,
+    "Bio": "Startup founder and business advisor.",
+    "Category": "Business",
+    "MessagePrice": 25,
+    "CallPrice": 60
+  },
+  {
+    "ID": 8,
+    "Name": "Olivia Thomas",
+    "Email": "olivia.t@gmail.com",
+    "Phone": "647-888-8888",
+    "Image": "img/h.jpg",
+    "Rating": 4,
+    "Bio": "Personal finance educator and investor.",
+    "Category": "Finance",
+    "MessagePrice": 20,
+    "CallPrice": 55
+  },
+  {
+    "ID": 9,
+    "Name": "James Martin",
+    "Email": "james.m@gmail.com",
+    "Phone": "647-999-9999",
+    "Image": "img/i.jpg",
+    "Rating": 5,
+    "Bio": "AI engineer and machine learning specialist.",
+    "Category": "Technology",
+    "MessagePrice": 30,
+    "CallPrice": 70
+  },
+  {
+    "ID": 10,
+    "Name": "Sophia White",
+    "Email": "sophia.w@gmail.com",
+    "Phone": "647-123-4567",
+    "Image": "img/j.jpg",
+    "Rating": 4,
+    "Bio": "Public speaking coach and communication expert.",
+    "Category": "Education",
+    "MessagePrice": 15,
+    "CallPrice": 40
+  }
+]

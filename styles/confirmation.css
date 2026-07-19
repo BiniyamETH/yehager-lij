@@ -1,0 +1,106 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+    flex-wrap: wrap;
+}
+
+.head li {
+    list-style: none;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.head a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+
+.confirmation {
+    max-width: 420px;
+    width: 90%;
+    margin: 70px auto;
+    padding: 40px 34px 28px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(46, 125, 50, 0.15);
+    font-family: 'Courier New', monospace;
+}
+
+.confirmation h3 {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #1c3d1c;
+    margin-bottom: 4px;
+}
+
+.confirmation h3::before {
+    content: "";
+    display: block;
+    border-top: 1px dashed #c9c2ac;
+    margin: 18px 0 16px;
+}
+
+.confirmation h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+    margin: 14px 0 4px;
+}
+
+.confirmation p {
+    font-size: 17px;
+    color: #010201;
+    margin: 0 0 10px;
+}
+
+.confirmation p:last-of-type {
+    border-top: 1px dashed #c9c2ac;
+    margin-top: 16px;
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(46, 125, 50);
+}
+.site-footer {
+    background: linear-gradient(135deg, #2e7d32, #4caf50);
+    text-align: center;
+    padding: 28px 16px 22px;
+    color: white;
+    margin-top: 60px;
+}
+
+.site-footer p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 6px;
+}
+
+.footer-copy {
+    font-size: 12px;
+    opacity: 0.85;
+    margin-top: 6px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}

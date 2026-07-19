@@ -1,0 +1,194 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: linear-gradient(180deg, #f4faf6, #e9f5ee);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #1f2b21;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+    flex-wrap:wrap; 
+}
+
+
+.head .in { display: flex; align-items: center; gap: 24px; }
+.head a { color: white; text-decoration: none; font-weight: 600; }
+.head a:hover { text-decoration: underline; }
+
+.search {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 180px;
+}
+
+.search-btn {
+    padding: 9px 18px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background: rgb(212, 168, 42);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px
+}
+
+.main_part {
+    width:90%;
+     min-height:300px;
+    margin-top:30px;
+    max-width: 400px;
+    height:450px;
+    background: #fff;
+    border-radius: 24px;
+    padding: 46px;
+    text-align: center;
+    border-top: 5px solid rgb(212, 168, 42);
+    box-shadow: 0 10px 30px rgba(46, 125, 50, .15);
+}
+
+.main_part h1 { margin-top: 18px; color: #1c3d1c; }
+.main_part p { margin-top: 4px; color: #5a6b5c; font-size: 14px; }
+
+.card_img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 4px solid rgb(201, 152, 16);
+}
+
+.main_part p.ratings {
+    color: gold;
+    font-size:30px
+}
+p.ratings:hover{color:rgb(248, 211, 5); cursor: pointer;}
+
+.action-btn, .action-btn2 {
+    margin: 20px 10px 0 0;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 999px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.action-btn { background: rgb(46, 125, 50); }
+.action-btn2 { background: rgb(212, 168, 42); }
+.action-btn:hover { background: rgb(35, 100, 40); }
+.action-btn2:hover { background: rgb(184, 144, 26); }
+
+.text { margin-top: 24px; text-align: center; color: #444; }
+
+.site-footer {
+    background: linear-gradient(135deg, #2e7d32, #4caf50);
+    text-align: center;
+    padding: 22px 16px;
+    color: white;
+}
+
+.footer-copy { font-size: 12px; opacity: .85; margin-top: 6px; }
+
+@media (max-width:600px){
+
+    .head{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .search{
+        width:100%;
+    }
+
+    .search-btn{
+        width:100%;
+        margin-top:10px;
+    }
+
+    main{
+        padding:20px;
+    }
+
+    .main_part{
+        width:100%;
+        padding:20px;
+        min-height:auto;
+    }
+
+    .card_img{
+        width:120px;
+        height:120px;
+    }
+
+    .action-btn,
+    .action-btn2{
+        width:100%;
+        margin-top:10px;
+    }
+}
+.bio-dropdown {
+  margin: 15px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Style the clickable trigger text */
+.bio-dropdown summary {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+/* Style the body text inside when it expands */
+.bio-dropdown p {
+  margin-top: 8px;
+  color: #444444;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+}
+/* Update your container classes to look like this: */
+.main_part, .profile-card {
+  height: auto;             /* 1. REMOVE any fixed pixel height like height: 450px */
+  min-height: 400px;        /* 2. Use min-height instead so it can grow if needed */
+  overflow: visible;        /* 3. Ensure content doesn't get cut off or break out */
+  display: flex;
+  flex-direction: column;   /* 4. Keeps elements stacked neatly in a vertical row */
+  gap: 15px;                /* 5. Adds clean, automatic spacing between elements */
+}
+.form-group{
+color:#007bff
+
+}
+.forms_1
+{
+padding:30px;
+border-radius:30px;
+color:#007bff;
+font-size:20px;
+width:400px;
+height:400px;
+
+}
