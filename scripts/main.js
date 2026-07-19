@@ -8,7 +8,7 @@ console.log(id )
 const main_parts = document.querySelector('.main_part')
 
 const loading = async ()=>{
-    const api = await fetch('../data/contacts.json')
+    const api = await fetch('/data/contacts.json')
     const res = await api.json()
     
     

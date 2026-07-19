@@ -22,7 +22,7 @@ const renderCards = (list) => {
         main_part.appendChild(cards)
 
         cards.addEventListener('click', () => {
-            window.location.href = `../pages/main.html?id=${r.ID}`
+            window.location.href = `/pages/main.html?id=${r.ID}`
         })
     })
 }
