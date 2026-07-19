@@ -178,17 +178,68 @@ p.ratings:hover{color:rgb(248, 211, 5); cursor: pointer;}
   flex-direction: column;   /* 4. Keeps elements stacked neatly in a vertical row */
   gap: 15px;                /* 5. Adds clean, automatic spacing between elements */
 }
-.form-group{
-color:#007bff
-
+.forms_1 {
+    padding: 30px;
+    border-radius: 24px;
+    width: 400px;
+    max-width: 90%;
+    margin: 30px auto 0;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(46, 125, 50, .15);
 }
-.forms_1
-{
-padding:30px;
-border-radius:30px;
-color:#007bff;
-font-size:20px;
-width:400px;
-height:400px;
 
+.forms_1 h2 {
+    color: #1c3d1c;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: #1c3d1c;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cfe0d3;
+    border-radius: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: rgb(46, 125, 50);
+}
+
+.submit-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 999px;
+    background: rgb(46, 125, 50);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: rgb(35, 100, 40);
+}
+
+@media (max-width: 600px) {
+    .forms_1 {
+        width: 100%;
+        padding: 20px;
+    }
 }
