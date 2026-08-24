@@ -28,7 +28,7 @@ const renderCards = (list) => {
 }
 
 const loading_data = async () => {
-    const api = await fetch('data/contacts.json')
+    const api = await fetch('./data/contacts.json')
     const res = await api.json()
 
     renderCards(res)   // show everyone initially

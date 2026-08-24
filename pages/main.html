@@ -39,6 +39,26 @@
         </section>
 
      <p class="text"></p>
+ <section class="review-form-section">
+  <h2>Share Your Experience</h2>
+  
+  <form id="reviewForm">
+    <div class="form-group">
+      <label for="userName">Your Name</label>
+      <input type="text" id="userName" placeholder="e.g. Alex Johnson" required />
+    </div>
+
+    <div class="form-group">
+      <label for="userComment">Your Feedback</label>
+      <textarea id="userComment" rows="4" placeholder="How was your experience?" required></textarea>
+    </div>
+
+    <button id="summit" type="submit">Post Feedback</button>
+  </form>
+
+  <div class="comments"></div>
+  <button class="remove">Refresh</button>
+</section>
     </main>
 
     <footer class="site-footer">
